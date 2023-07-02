@@ -26,7 +26,6 @@ adb shell pm uninstall -k --user 0 jp.co.sharp.android.lifekit
 adb shell pm uninstall -k --user 0 jp.co.sharp.android.lifekit.LifekitActivity
 adb shell pm uninstall -k --user 0 jp.co.nttdocomo.carriermail
 adb shell pm uninstall -k --user 0 jp.co.nttdocomo.carriermail.activity.EulaViewer
-adb shell pm uninstall -k --user 0 com.google.android.setupwizard
 adb shell pm uninstall -k --user 0 com.android.chrome
 adb shell pm uninstall -k --user 0 com.google.android.apps.chrome.Main
 adb shell pm uninstall -k --user 0 jp.co.canon.android.printservice.plugin
@@ -37,7 +36,7 @@ adb shell pm uninstall -k --user 0 com.google.android.feedback
 adb shell pm uninstall -k --user 0 com.nttdocomo.android.idmanager
 adb shell pm uninstall -k --user 0 com.google.android.calendar
 adb shell pm uninstall -k --user 0 com.android.calendar.AllInOneActivity
-adb shell pm uninstall -k --user 0 com.google.android.inputmethod.latin
+//adb shell pm uninstall -k --user 0 com.google.android.inputmethod.latin
 adb shell pm uninstall -k --user 0 jp.co.sharp.android.feelux.theme.colorpop03
 adb shell pm uninstall -k --user 0 com.nttdocomo.android.schedulememo
 adb shell pm uninstall -k --user 0 com.nttdocomo.android.schedulememo.ScheduleMemoActivity
@@ -136,7 +135,6 @@ adb shell pm uninstall -k --user 0 com.google.android.feedback
 adb shell pm uninstall -k --user 0 com.nttdocomo.android.idmanager
 adb shell pm uninstall -k --user 0 com.google.android.calendar
 adb shell pm uninstall -k --user 0 com.android.calendar.AllInOneActivity
-adb shell pm uninstall -k --user 0 com.google.android.inputmethod.latin
 adb shell pm uninstall -k --user 0 jp.co.sharp.android.feelux.theme.colorpop03
 adb shell pm uninstall -k --user 0 com.nttdocomo.android.schedulememo
 adb shell pm uninstall -k --user 0 com.nttdocomo.android.schedulememo.ScheduleMemoActivity
@@ -196,3 +194,26 @@ adb shell pm uninstall -k --user 0 com.google.android.gsf
 adb shell pm uninstall -k --user 0 com.google.android.partnersetup
 adb shell pm uninstall -k --user 0 com.google.android.gsf.login
 adb shell pm uninstall -k --user 0 jp.co.sharp.android.feelux.theme.natural01
+adb shell pm uninstall -k --user 0 com.mobisystems.office
+adb shell pm uninstall -k --user 0 com.nttdocomo.android.applicationmanager
+adb shell pm uninstall -k --user 0 com.nttdocomo.android.obexservice
+adb shell pm uninstall -k --user 0 com.nttdocomo.android.obex
+adb shell pm uninstall -k --user 0 com.nttdocomo.android.docomoset
+adb shell pm uninstall -k --user 0 com.nttdocomo.android.rwpushcontroller
+adb shell pm uninstall -k --user 0 com.nttdocomo.android.apnsw
+adb shell pm uninstall -k --user 0 com.nttdocomo.android.lac
+adb shell pm uninstall -k --user 0 com.nttdocomo.android.epshome
+adb shell pm uninstall -k --user 0 com.nttdocomo.android.screenlockservice
+//adb shell pm uninstall -k --user 0 com.nttdocomo.android.tapandpay
+//adb shell pm uninstall -k --user 0 com.nttdocomo.android.felicaremotelock
+//adb shell pm uninstall -k --user 0 com.nttdocomo.osaifu.tsmproxy
+adb shell pm uninstall -k --user 0 com.nttdocomo.android.pf.dcmwappush
+adb shell pm uninstall -k --user 0 com.nttdocomo.android.hcebridge
+adb shell pm uninstall -k --user 0 com.nttdocomo.android.epsmodecontrol
+adb shell pm uninstall -k --user 0 com.nttdocomo.android.initialization
+adb shell pm uninstall -k --user 0 com.nttdocomo.android.osv
+adb shell pm uninstall -k --user 0 com.nttdocomo.android.pf.dcmippushaggregator
+adb shell pm uninstall -k --user 0 com.threelm.dm.app.docomo
+adb shell pm uninstall -k --user 0 jp.co.nttdocomo.anshinmode
+adb shell pm uninstall -k --user 0 jp.co.nttdocomo.bridgelauncher
+adb install launcher.apk

@@ -25,6 +25,11 @@ adb shell pm uninstall -k --user 0 com.google.android.apps.tachyon.MainActivity
 ウォーキングNAVITIME-simple-
 adb shell pm uninstall -k --user 0 com.navitime.local.alkoo.simple
 adb shell pm uninstall -k --user 0 com.navitime.local.alkoo.simple.NTMainNavitime
+
+写真/動画
+adb shell pm uninstall -k --user 0 jp.kyocera.kyoceragallery7
+adb shell pm uninstall -k --user 0 jp.kyocera.kyoceragallery7.ThumbnailViewerActivity
+
 テレビde写真
 adb shell pm uninstall -k --user 0 jp.kyocera.TVConnect
 adb shell pm uninstall -k --user 0 jp.kyocera.TVConnect.operationselect.OperationActivity
@@ -188,3 +193,7 @@ adb shell pm uninstall -k --user 0 com.google.android.gsf.login
 アプリケーションadb shell pm uninstall -k --user 0 スマホの健康診断
 adb shell pm uninstall -k --user 0 jp.kyocera.selfcheck
 adb shell pm uninstall -k --user 0 jp.kyocera.selfcheck.SelfCheckMainActivity
+
+インターネット
+adb shell pm uninstall -k --user 0 com.android.browser
+adb shell pm uninstall -k --user 0 com.android.browser.BrowserActivity
