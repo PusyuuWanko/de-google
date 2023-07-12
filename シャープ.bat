@@ -58,8 +58,8 @@ adb shell pm uninstall -k --user 0 com.android.contacts.activities.PeopleActivit
 Google Partner Setup
 adb shell pm uninstall -k --user 0 com.google.android.partnersetup
 
-Google の音声サービス
-adb shell pm uninstall -k --user 0 com.google.android.tts
+テザリングオート
+adb shell pm uninstall -k --user 0 jp.co.sharp.android.tetheringauto
 
 My AQUOS
 adb shell pm uninstall -k --user 0 sharp.jp.android.makersiteappli
