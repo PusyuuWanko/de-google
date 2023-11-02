@@ -97,6 +97,7 @@ adb shell pm block jp.iconit.jp_barcodereader.activity.BootActivity
 adb shell pm block jp.gree.android.pf.greeapp1753
 adb shell pm block jp.gree.android.pf.greeapp1753.MainActivity
 adb shell pm block com.google.android.gsf
+adb shell pm block com.svox.pico
 adb shell pm block com.kddi.android.emailprov
 adb shell pm block com.android.facelock
 adb shell pm block com.gunosy.au
