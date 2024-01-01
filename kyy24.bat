@@ -83,6 +83,7 @@ adb shell pm block com.kddi.market
 adb shell pm block com.kddi.market.activity.ActivityMain
 adb shell pm block com.kddi.android.btdun
 adb shell pm block jp.kyocera.kyocerahome.launcher
+adb shell pm block com.kyocera.weatherclock
 adb shell pm block com.google.android.apps.maps
 adb shell pm block com.google.android.maps.MapsActivity
 adb shell pm block com.google.android.youtube
